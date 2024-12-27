@@ -17,7 +17,7 @@ const handleSubmit=(e)=>{
     .then(result=>{console.log(result)
         if(result.data==="Success ho gaya"){
             alert("Correct details entered")
-            navigate('/Home')
+            navigate('/thanks')
         }
 
 })
